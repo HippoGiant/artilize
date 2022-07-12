@@ -1,0 +1,152 @@
+@import "./style.scss";
+@import "./global.scss";
+
+.main {
+    margin: 0, auto;
+}
+
+.phCardContainer {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    height: 600px;
+}
+
+.TextLink {
+    color: #000;
+    text-decoration: none;
+    &:hover {
+        color: black;
+    }
+}
+.pCard {
+    width: 320px;
+    height: 480px;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 3px rgb(199, 199, 199);
+    overflow: hidden;
+    padding: 0px;
+}
+
+.pCardImg {
+    width: 320px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.pCardContent {
+    width: 320px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+.pCardContentTopic {
+    max-width: 165px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.pCardContentPrice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pBrandCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    height: 480px;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 3px rgb(199, 199, 199);
+    overflow: hidden;
+    padding: 0px;
+}
+
+.pBrandCardImgcontent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 320px;
+    height: 320px;
+}
+
+// .pBrandCardImg{
+//     width: 100%;
+//     height: 100%;
+//     background-repeat: no-repeat;
+//     background-position: center;
+//     background-size: auto;
+//     overflow: hidden;
+// }
+.pBrandCardContent {
+    width: 320px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pBrandCardContentTopic {
+    // max-width: 165px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+// pCardTest
+.pMoresaleCard {
+    width: 320px;
+    height: 480px;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 3px rgb(199, 199, 199);
+    overflow: hidden;
+    padding: 0px;
+}
+
+.pMoresaleCardImg {
+    width: 320px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    overflow: hidden;
+}
+.pMoresaleCardContent {
+    width: 320px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+.pMoresaleCardContentTopic {
+    max-width: 165px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.pMoresaleCardContentPrice {
+    margin-right: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pMoresaleCardContentSaleIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.pMoresaleCardContentSaleIconImg {
+    width: 35px;
+    height: 35px;
+    margin: 5px 0px 5px 0px;
+}
